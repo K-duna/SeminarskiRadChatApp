@@ -1,0 +1,36 @@
+.chatContainer {
+    text-align: center;
+    background-color: violet;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chatWrapper {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 45%;
+    height: 85%;
+    overflow: hidden;
+}
+.logo {
+    margin: 10px;
+    position: centar;
+}
+
+.message-list {
+    max-width: 80%;
+    padding: 5px 100px 5px 100px;
+    height: calc(100% - 90px);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    overflow: scroll;
+    border-radius: 0 10px 10px 10px;
+}
+
+
+
